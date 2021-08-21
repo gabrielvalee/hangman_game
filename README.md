@@ -1,5 +1,11 @@
 # Hangman Game in Python
 
+This is the hangman game developed in python for the online course "Python 3 Part 2: Advencing in the language" in the website "Alura".
+
+In this online course I had to use Python to make a hangman game.
+
+I created 3 .txt files named **"easywords.txt"**, **"mediumwords.txt"** and **"hardwords.txt"**, that contains a lot of words in different sizes. Then the code was written in python. The final file is **"hangman.py"**
+
 ```python
 import random
 
@@ -186,3 +192,8 @@ def reveal_letters(secret_word, player_letter, revealed_letters):
 if(__name__ == "__main__"):
     run()
 ```
+
+The code will:
+ 1. Get the the difficult which the player wants.
+ 2. Open the file then get a random word.
+ 3. Then get the letters with the player, checking if the word contains the letter, until the player wins or loses.
