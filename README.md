@@ -1,6 +1,6 @@
 # Hangman Game in Python
 
-This is the hangman game developed in python for the online course "Python 3 Part 2: Advencing in the language" in the website "Alura".
+This is the hangman game developed in python for the online course "Python 3 Part 2: Advancing in the language" in the website "Alura".
 
 In this online course I had to use Python to make a hangman game.
 
